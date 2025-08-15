@@ -56,12 +56,15 @@ BlazeWatch predicts fire occurrence using:
    git clone https://github.com/yourusername/BlazeWatch.git
    cd BlazeWatch
 2.Install dependencies:
-pip install -r requirements.txt
-
+   ```bash
+   pip install -r requirements.txt
+   ```
 3.Run the Flask app:
-python app.py
-
+```bash
+    python app.py
+```
 4.Open your browser and go to:
-http://127.0.0.1:5000
+  ```bash
+   http://127.0.0.1:5000
 
 
