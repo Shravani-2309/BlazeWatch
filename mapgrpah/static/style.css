@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: "Comic Sans MS", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #fff4e6; /* Light peach */
+    color: #3a1f0f; /* Dark brown for contrast */
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #ff4500; /* OrangeRed */
+}
+
+.logo {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.site-name {
+    margin-left: 15px;
+    font-family: cursive;
+    font-size: 50px;
+    color: #fff8e1;
+    font-weight: bold;
+}
+
+.slog {
+    font-size: 30px;
+    color: #ffe5b4;
+    margin-top: 10px;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#homepage .imgcon {
+    position: relative;
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid #ff7f50;
+    border-radius: 10px;
+}
+
+#homepage .imgcon video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#homepage .content {
+    margin-top: 20px;
+}
+
+#welcome {
+    background-color: #ffe5b4;
+    color: #8b0000; /* DarkRed */
+}
+
+#prediction .prediction-box {
+    background-color: #fff8e1;
+    color: #b22222; /* FireBrick */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#prediction .prediction-box h2 {
+    margin-top: 0;
+    color: #d84315; /* Deep Orange */
+}
+
+#prediction-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#prediction-form label, #prediction-form input, #prediction-form button {
+    margin: 10px;
+}
+
+#prediction-form input {
+    padding: 5px;
+    border: 1px solid #d84315;
+    border-radius: 5px;
+}
+
+#prediction-form button {
+    padding: 10px 20px;
+    background-color: #ff7043; /* Coral */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prediction-form button:hover {
+    background-color: #ff5722;
+}
+
+.result-box {
+    background-color: #ffebd4;
+    color: #4e1609;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.result-box .result {
+    margin-top: 0;
+}
+
+#about {
+    background-color: #ffccbc;
+    color: #bf360c;
+}
+
+#box-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#iframe-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+#graph-info {
+    background-color: #ffe0b2;
+    color: #bf360c;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#image-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffcc80;
+    color: #6d0707;
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #bf360c;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff5e0;
+}
+
+/* Legend Styles */
+.legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.legend div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.legend div span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.legend div span.eastern { background-color: #ffad99; }
+.legend div span.southern { background-color: #ff9966; }
+.legend div span.northern { background-color: #ff7043; }
+.legend div span.central { background-color: #ff8a65; }
+.legend div span.western { background-color: #e64a19; }
