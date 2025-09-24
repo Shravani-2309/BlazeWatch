@@ -53,7 +53,7 @@ BlazeWatch predicts fire occurrence using:
 ## 📜 How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/BlazeWatch.git
+   git clone https://github.com/Shravani-2309/BlazeWatch.git
    cd BlazeWatch
 2.Install dependencies:
    ```bash
